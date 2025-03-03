@@ -2,7 +2,7 @@
 repeating this process while increasing the time the LED is on by 1 second each interval
 
 Created on Feb 2025
-By Daki A.B
+Created by Daki A.B
 */ 
 
 // set variable, blinkTime, to 1000
@@ -18,7 +18,7 @@ void loop() {
   digitalWrite(PIN_7, HIGH);
   // turn on LED
   delay(blinkTime);
-  // wiat for duration of blinkTime
+  // wait for duration of blinkTime
   digitalWrite(PIN_7, LOW);
   // turn LED off
   delay(1000);
